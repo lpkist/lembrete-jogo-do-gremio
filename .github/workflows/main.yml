@@ -1,9 +1,9 @@
 name: Jogo do Grêmio
 
 on:
-  workflow_dispatch
-  #schedule:
-  #  - cron: "0 7 * * *" # Everyday 4am BR
+  #workflow_dispatch
+  schedule:
+    - cron: "0 9 * * *" # Everyday 6am BR
   
     
 jobs:
